@@ -26,7 +26,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
-'''
+```
 index.html
 {% load static %}
 <!DOCTYPE html>
@@ -382,7 +382,7 @@ input, textarea {
     border: 1px solid #ccc;
 }
 
-'''              
+```             
        
 # OUTPUT:
 
