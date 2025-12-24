@@ -27,947 +27,370 @@ Publish the website in the given URL.
 
 # PROGRAM:
 '''
-inde.html:
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         
-                        <!--font for body-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-    
-                             <!--font awesome icons w3 schools-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <title>Bibimbap Bliss</title>
-    </head>
-    <body>
-        <!--session begins-->
-        <div id="resto">
-            <div id="restocontent">
-                <h1>Bibimbap Bliss</h1>
-                <h2>"Bringing Seoul to Your Plate"</h2>
-                <b><a href="" id="menu">See Our Blissful K-Plate</a></b>
-            </div>
-        </div>
-        <!--session ends-->
-    
-        <!-- header begins-->
-         <div id="header">
-            <nav id="navbar">
-                <h1>Korean-Indo restaurant</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <div id="email">
-                        <a href="mailto:bibimbapbliss@gmail.com">bibimbapbliss@gmail.com</a>
-                    </div>
-                </ul>
-            </nav>
-         </div>
-        <!-- header ends-->
-    
-        <!--menu section begins-->
-        <div id="menu">
-            <h1 id="section">Menu</h1>
-            <div id="menu_row">
-                <div id="menu_col">
-                    <h2>Main course</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Kimchi and Dumpling Noodle Soup.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Kimchi and Dumpling Ramen</h3>
-                            <h4>Rs.350</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Spicy Korean Silken Tofu Ramen - Sundubu Ramen (20 Minutes) - Tiffy Cooks.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Spicy Tofu Ramen</h3>
-                            <h4>Rs.400</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Bibimbap Recipe_ A Delicious and Colorful Dish.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Bibimbap</h3>
-                            <h4>Rs.450</h4>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Gimbap (Korean Seaweed Rolls) -.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Gimbap</h3>
-                            <h4>Rs.350</h4>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="menu_col">
-                    <h2>Snacks</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean corn dogs.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Corn Dogs</h3>
-                            <h4>Rs.150</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean rolled omelette (Gyeran-mari_ 계란말이).jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Rolled omelette</h3>
-                            <h4>Rs.100</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Spicy Chicken - Khin's Kitchen _ Korean Fried Chicken.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Spicy Chicken</h3>
-                            <h4>Rs.200</h4>
-                        <div class="box">
-                            <div id="image">
-                                <img src="Korean Tteokbokki with Boiled Eggs.jpg">
-                            </div>
-                        <div id="rate">
-                            <h3>Tteokbeokki Spicy</h3>
-                            <h4>Rs.250</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="menu_col">
-                    <h2>Drinks</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Dalgona Coffee (Whipped Coffee) - Host The Toast.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Dalgona Coffee</h3>
-                            <h4>Rs.380</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Soju Yakult Cocktail.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Soju</h3>
-                            <h4>Rs.200</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Mango Milk - Bake with Shivesh.jpg">
-                        </div>
-                    <div id="rate">
-                        <h3>Mango Milk</h3>
-                            <h4>Rs.450</h4>
-                    <div class="box">
-                                <div id="image">
-                                    <img src="Korean Strawberry Milk Recipe (3 Ingredients) + Video.jpg">
-                                </div>
-                                <div id="rate">
-                                    <h3>Mango Milk</h3>
-                                    <h4>Rs.450</h4>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--menu section ends-->
-    
-        <!--About section begins-->
-        <div id="about">
-            <h1 id="section">About</h1>
-            <div id="about_row">
-                <h1>About Us</h1>
-                <p>
-                    <center>Welcome to Bibimbap Bliss, where the vibrant flavors of Korea and India unite in a delicious fusion experience! Our menu features a delightful array of dishes, from customizable bibimbap bowls to unique twists like kimchi samosas and tandoori chicken tacos. Committed to using fresh, locally sourced ingredients, we cater to all dietary preferences, ensuring everyone can savor our culinary creations. Join us for a meal that celebrates the joy of food and the warmth of community!</center>
-                </p>
-                </div>
-            <div class="about_col">
-                <div id="about_img">
-                <img src="Girl_Eating_With_Chopsticks-removebg-preview.png">
-                </div>
-            </div>
-        </div>
-        <!--About section ends-->
-    
-        <!--Contact section begins-->
-    <div id="contact">
-        <h1 id="section">Contact</h1>
-    <div id="contact_row">
-        <div class="contact_col">
-            </div>
-            <div class="contact_col">
-                <center>
-                <p>
-                    <i class="fa fa-map-marker"></i>
-                    Anna Nagar, Chennai, Tamil-Nadu
-                </p>
-                <p>
-                    <a href="mailto: bibimbapbliss@gmail.com">
-                        <i class="fa fa-envelope-o"></i>
-                        bibimbapbliss@gmail.com
-                    </a>
-                
-                </p>
-                <p>
-                    <a href="tel: +918928364456">
-                        <i class="	fa fa-phone"></i>
-                        +918928364456
-                    </a>
-                </p>
-                        <h3>
-                            Follow Us on
-                        </h3>
-                    <p id="social">
-                    <a href="">
-                        <i class="	fa fa-instagram">
-                        </i>
-                    </a>
-                    
-                    <a href="">
-                        <i class="fa fa-youtube-play">
-                        </i>
-                    </a>
-    
-                    <a href="">
-                        <i class="fa fa-twitter">
-                        </i>
-                    </a>
-                    <a href="">
-                        <i class="fa fa-facebook-official">
-                        </i>
-                    </a>
-                    </p>
-                </p>
-                </p>
-            </center>    
-            </div>
-            <div class="contact-form-container">
-                <h2>Get in Touch with Us</h2>
-                <p>We'd love to hear from you! Please fill out the form below and we'll get back to you shortly.</p>
-                <form method="POST" action="submit_form.php">
-                    <!-- Name Input -->
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                    </div>
-            
-                    <!-- Email Input -->
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-                    </div>
-            
-                    <!-- Subject Input -->
-                    <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
-                    </div>
-            
-                    <!-- Message Input -->
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
-                    </div>
-            
-                    <!-- Submit Button -->
-                    <div class="form-group">
-                        <button type="submit" class="btn-submit">Send Message</button>
-                    </div>
-                    </form>                                                                          
-        </div>
+index.html
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicious Bites</title>
+    <link rel="stylesheet" href="{% static 'res_app/style.css' %}">  
+</head>
+<body>
+
+<header>
+  
+
+    <h1>Delicious Bites</h1>
+    <p>Fresh • Tasty • Hygienic</p>
+</header>
+
+<nav>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'menu' %}">Menu</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'contact' %}">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Intro Section -->
+    <div class="card">
+        <h2>Experience the Taste of Authentic Food</h2>
+        <p>
+            Welcome to <strong>Delicious Bites</strong>, where flavor meets comfort.
+            We prepare every dish using fresh ingredients and traditional recipes
+            to give you an unforgettable dining experience.
+        </p>
+        <a href="menu.html">
+            <button>View Our Menu</button>
+        </a>
     </div>
+
+    <!-- Today's Highlights -->
+    <div class="card">
+    	<h2>Today’s Highlights</h2>
+    	<p>• Freshly prepared meals available all day</p>
+    	<p>• Special lunch combos from 12:00 PM – 3:00 PM</p>
+   	<p>• Evening snacks served from 4:30 PM</p>
+    	<p>• Home delivery available</p>
     </div>
-        <!--Contact section ends-->
-    
-    </body>
-    </html>
 
-menu.html:
+    <!-- Services -->
+    <div class="card">
+   	<h2>Our Services</h2>
+    	<p>• Dine-in facility</p>
+    	<p>• Takeaway orders</p>
+    	<p>• Online food ordering</p>
+    	<p>• Catering for small events</p>
+    </div>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Menu - Bibimbap Bliss</title>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav id="navbar">
-            <h1>Bibimbap Bliss</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    
-        <!-- Menu Section -->
-        <div id="menu">
-            <h1 id="section">Menu</h1>
-            <div id="menu_row">
-                <div id="menu_col">
-                    <h2>Main course</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Kimchi and Dumpling Noodle Soup.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Kimchi and Dumpling Ramen</h3>
-                            <h4>Rs.350</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Spicy Korean Silken Tofu Ramen - Sundubu Ramen (20 Minutes) - Tiffy Cooks.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Spicy Tofu Ramen</h3>
-                            <h4>Rs.400</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Bibimbap Recipe_ A Delicious and Colorful Dish.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Bibimbap</h3>
-                            <h4>Rs.450</h4>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Gimbap (Korean Seaweed Rolls) -.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Gimbap</h3>
-                            <h4>Rs.350</h4>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="menu_col">
-                    <h2>Snacks</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean corn dogs.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Corn Dogs</h3>
-                            <h4>Rs.150</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean rolled omelette (Gyeran-mari_ 계란말이).jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Rolled omelette</h3>
-                            <h4>Rs.100</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Spicy Chicken - Khin's Kitchen _ Korean Fried Chicken.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Spicy Chicken</h3>
-                            <h4>Rs.200</h4>
-                        <div class="box">
-                            <div id="image">
-                                <img src="Korean Tteokbokki with Boiled Eggs.jpg">
-                            </div>
-                        <div id="rate">
-                            <h3>Tteokbeokki Spicy</h3>
-                            <h4>Rs.250</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="menu_col">
-                    <h2>Drinks</h2>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Dalgona Coffee (Whipped Coffee) - Host The Toast.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Dalgona Coffee</h3>
-                            <h4>Rs.380</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Soju Yakult Cocktail.jpg">
-                        </div>
-                        <div id="rate">
-                            <h3>Soju</h3>
-                            <h4>Rs.200</h4>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div id="image">
-                            <img src="Korean Mango Milk - Bake with Shivesh.jpg">
-                        </div>
-                    <div id="rate">
-                        <h3>Mango Milk</h3>
-                            <h4>Rs.450</h4>
-                    <div class="box">
-                                <div id="image">
-                                    <img src="Korean Strawberry Milk Recipe (3 Ingredients) + Video.jpg">
-                                </div>
-                                <div id="rate">
-                                    <h3>Mango Milk</h3>
-                                    <h4>Rs.450</h4>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-    </html>
+    <!-- Timings -->
+    <div class="card">
+        <h2>Opening Hours</h2>
+        <p>
+            Monday – Sunday <br>
+            10:00 AM – 10:30 PM
+        </p>
+        <p>Chennai, India</p>
+    </div>
 
-about.html:
+</div>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>About - Bibimbap Bliss</title>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav id="navbar">
-            <h1>Bibimbap Bliss</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    
-        <!-- About Section -->
-        <div id="about">
-            <h1 id="section">About</h1>
-            <div id="about_row">
-                <h1>About Us</h1>
-                <p>
-                    Welcome to Bibimbap Bliss, where the vibrant flavors of Korea and India unite in a delicious fusion experience! 
-                    Our menu features a delightful array of dishes, from customizable bibimbap bowls to unique twists like kimchi samosas and tandoori chicken tacos. 
-                    Committed to using fresh, locally sourced ingredients, we cater to all dietary preferences, ensuring everyone can savor our culinary creations.
-                    Join us for a meal that celebrates the joy of food and the warmth of community!
-                </p>
-                <div class="about_col">
-                    <img src="Girl_Eating_With_Chopsticks-removebg-preview.png" alt="Girl Eating with Chopsticks">
-                </div>
-            </div>
-        </div>
-    </body>
-    </html>
+<footer>
+    <p>Delicious Bites Restaurant</p>
+</footer>
 
-contact.html:
+</body>
+</html>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Menu - Bibimbap Bliss</title>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav id="navbar">
-            <h1>Bibimbap Bliss</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    
-        <div id="contact">
-            <h1 id="section">Contact</h1>
-        <div id="contact_row">
-            <div class="contact_col">
-                </div>
-                <div class="contact_col">
-                    <center>
-                    <p>
-                        <i class="fa fa-map-marker"></i>
-                        Anna Nagar, Chennai, Tamil-Nadu
-                    </p>
-                    <p>
-                        <a href="mailto: bibimbapbliss@gmail.com">
-                            <i class="fa fa-envelope-o"></i>
-                            bibimbapbliss@gmail.com
-                        </a>
-                    
-                    </p>
-                    <p>
-                        <a href="tel: +918928364456">
-                            <i class="	fa fa-phone"></i>
-                            +918928364456
-                        </a>
-                    </p>
-                            <h3>
-                                Follow Us on
-                            </h3>
-                        <p id="social">
-                        <a href="">
-                            <i class="	fa fa-instagram">
-                            </i>
-                        </a>
-                        
-                        <a href="">
-                            <i class="fa fa-youtube-play">
-                            </i>
-                        </a>
-        
-                        <a href="">
-                            <i class="fa fa-twitter">
-                            </i>
-                        </a>
-                        <a href="">
-                            <i class="fa fa-facebook-official">
-                            </i>
-                        </a>
-                        </p>
-                    </p>
-                    </p>
-                </center>    
-                </div>
-                <div class="contact-form-container">
-                    <h2>Get in Touch with Us</h2>
-                    <p>We'd love to hear from you! Please fill out the form below and we'll get back to you shortly.</p>
-                    <form method="POST" action="submit_form.php">
-                        <!-- Name Input -->
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                        </div>
-                
-                        <!-- Email Input -->
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-                        </div>
-                
-                        <!-- Subject Input -->
-                        <div class="form-group">
-                            <label for="subject">Subject:</label>
-                            <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
-                        </div>
-                
-                        <!-- Message Input -->
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
-                        </div>
-                
-                        <!-- Submit Button -->
-                        <div class="form-group">
-                            <button type="submit" class="btn-submit">Send Message</button>
-                        </div>
-                        </form>                                                                          
-            </div>
-        </div>
-        </div>
-    </body>
-    </html>
+menu.html
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu | Delicious Bites</title>
+    <link rel="stylesheet" href="{% static 'res_app/style.css' %}">   
+</head>
+<body>
 
-style.css:
+<header>
+    <h1>Our Menu</h1>
+    <p>Delicious food for every mood</p>
+</header>
 
-        *{
-            margin: 0%;
-            padding: 0%;
-        }
-        
-        html{
-          font-size: 100;
-          scroll-behavior: smooth;
-        }
-        body{
-            font-family: "Merienda", cursive;
-            font-optical-sizing: auto;
-            font-style: normal;
-            overflow-x: hidden;
-        }
-        
-        #resto{
-          position: relative;
-          height: 100vh;
-          width: 100vw;
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          align-items: center;
-        }
-        
-        #resto::before{
-          content: "";
-          top: 0%;
-          left: 0%;
-          width: 100%;
-          height: 100%;
-          background-image: url("eecfa46e-ecd7-41de-a4ca-b504aa6cd5d3.jpg");
-          position:absolute;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-attachment: fixed;
-          filter: brightness(50%);
-        }
-        
-        #restocontent{
-          position: absolute;
-        }
-        
-        h1,h2{
-          font-size: 3rem;
-          color:lavender;
-          font-style: italic;
-          margin-bottom: 5rem;
-        }
-        #menu{
-          font-family: monospace;
-          font-size: 1.5rem;
-          color: antiquewhite;
-          border: 1px white solid;
-          border-radius: 25px;
-          padding: 4px;
-        }
-        
-        #restocontent a:hover{
-          background-color:cadetblue;
-        }
-        
-        /------------------------------------------------------------------------------------------/
-        /* header section*/
-        
-        #header{
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          position: fixed;
-          top: 0;
-          width: 100vw;
-          height: 70px;
-          line-height: 70px;
-        }
-        
-        #navbar{
-        display: flex;
-        justify-content: space-around;
-        color:azure;
-        background: rgba(134, 162, 162, 0.5);
-        }
-        
-        #navbar h1{
-        font-size: 2rem;
-        font-family: sans-serif;
-        color:khaki;
-        text-shadow: none;
-        display: flex;
-        justify-content: space-around;
-        }
-        
-        #navbar ul{
-          display: flex;
-        }
-        
-        #navbar ul li{ 
-        list-style: none;
-        padding: 3px 15px 3px 15px;
-        }
-        
-        #navbar ul li a{
-        text-decoration: underline;
-        color:azure;
-        }
-        
-        #email a{
-          text-decoration: solid;
-          padding: 3px 15px 3px 15px;
-          color: lavender;
-          border: 1px solid blanchedalmond;
-          border-radius: 25px;
-        }
-        
-        /-----------------------------------------------------------------------------------------/
-        /menu section/
-        #menu{
-          padding: 0 25px 0 25px;
-        }
-        
-        #section{
-          padding: 0 25px 0 25px;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          color:black;
-          text-align: center;
-          font-size: 2rem;
-        }
-        
-        #menu_row{
-          padding: 0 100px 0 100px;
-          display: flex;
-        }
-        
-        #menu_col{
-          border: 1px solid #bbb;
-          margin: 5px;
-          box-shadow: 2px 2px 2px #bbb;
-          background-color: #fff;
-          padding: 10px;
-          flex: 1;
-        }
-        
-        #menu_col h2{
-          padding: 5px;
-          color: #fff;
-          text-align: center;
-          background-color:dimgrey;
-        }
-        
-        #image{
-          width: 150px;
-          height: 150px;
-          border-radius: 50%;
-          padding: 1px;
-          border:2px solid black;
-        }
-        
-        #image img{
-           width: 100%;
-           height: 100%;
-           border-radius: 50%;
-           object-fit:cover;
-           border-color: black;
-           top:0%;
-           align-items: center;
-           
-        }
-        
-        .box{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          margin: 5px;
-        }
-        
-        #rate{
-          color: black;
-          text-align: center;
-        }
-        
-        /---------------------------------------------------------------------------------------/
-        /about section/
-        
-        #about{
-          padding: 25px 0 25px 0;
-        }
-        
-        #about_row{
-          display:flex;
-          justify-content: center;
-          align-items: center;
-          flex-wrap: wrap;
-          padding: 0 100px 0 100px;
-          color: coral;
-        }
-        
-        .about_col{
-          flex:1;
-        }
-        
-        #about_img{
-          width: 300px;
-          height: 300px;
-          border-radius: 50%;
-          margin: auto;
-        }
-        
-        #about_img img{
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-          object-fit: fill;
-        }
-        
-        //
-        /Contact us/
-        
-        .contact_col p,h3{
-          font-weight: bold;
-          color:lightpink;
-          margin: 10px;
-        }
-        
-        .contact_col p a{
-          text-decoration: none;
-          color:lightpink;
-        }
-        
-        #social{
-          color:black;
-          margin: 3px;
-        }
-        
-        .contact_col form{
-          display: flex;
-          flex-direction: column;
-          background-color:wheat;
-          width: 20%;
-        }
-        
-        #get{
-          font-size: 1rem;
-          text-align: center;
-          justify-content: center;
-          color: black;
-        }
-        
-        /* General Styling */
-        body {
-          font-family: 'Merienda', cursive;
-          margin: 0;
-          padding: 0;
-          background-color: #f5f5f5;
-          color: #333;
-        }
-        
-        /* Contact Form Container */
-        .contact-form-container {
-          max-width: 600px;
-          margin: 50px auto;
-          padding: 30px;
-          background-color: #ffffff;
-          border-radius: 8px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        /* Form Header */
-        .contact-form-container h2 {
-          text-align: center;
-          color: #333333;
-          margin-bottom: 10px;
-          font-size: 24px;
-        }
-        
-        .contact-form-container p {
-          text-align: center;
-          color: #666666;
-          margin-bottom: 20px;
-          font-size: 16px;
-        }
-        
-        /* Form Groups */
-        .form-group {
-          margin-bottom: 20px;
-        }
-        
-        .form-group label {
-          display: block;
-          font-weight: bold;
-          margin-bottom: 5px;
-          color: #333333;
-        }
-        
-        .form-group input,
-        .form-group textarea {
-          width: 100%;
-          padding: 10px;
-          border: 1px solid #dddddd;
-          border-radius: 4px;
-          font-size: 14px;
-          font-family: inherit;
-          box-sizing: border-box;
-          background-color: #fdfdfd;
-        }
-        
-        /* Textarea Specific Styling */
-        .form-group textarea {
-          resize: none;
-        }
-        
-        /* Input and Textarea Focus States */
-        .form-group input:focus,
-        .form-group textarea:focus {
-          border-color: #4CAF50;
-          outline: none;
-          box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
-        }
-        
-        /* Submit Button */
-        .btn-submit {
-          display: block;
-          width: 100%;
-          padding: 10px;
-          background-color: #4CAF50;
-          color: #ffffff;
-          border: none;
-          border-radius: 4px;
-          font-size: 16px;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-          text-transform: uppercase;
-          font-weight: bold;
-        }
-        
-        .btn-submit:hover {
-          background-color: #45a049;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-          .contact-form-container {
-              padding: 20px;
-          }
-        
-          .contact-form-container h2 {
-              font-size: 22px;
-          }
-        
-          .contact-form-container p {
-              font-size: 14px;
-          }
-        }
+<nav>
+   <a href="{% url 'home' %}">Home</a>
+   <a href="{% url 'menu' %}">Menu</a>
+   <a href="{% url 'about' %}">About</a>
+   <a href="{% url 'contact' %}">Contact</a>   
+</nav>
 
+<div class="container">
+
+    <!-- Starters -->
+    <div class="card">
+        <h2>Starters</h2>
+        <p>Veg Spring Rolls – ₹120</p>
+        <p>Paneer Tikka – ₹180</p>
+        <p>Chicken 65 – ₹200</p>
+        <p>Gobi Manchurian – ₹150</p>
+    </div>
+
+    <!-- Main Course -->
+    <div class="card">
+        <h2>Main Course</h2>
+        <p>Veg Biryani – ₹180</p>
+        <p>Chicken Biryani – ₹250</p>
+        <p>Mutton Biryani – ₹320</p>
+        <p>Paneer Butter Masala – ₹220</p>
+        <p>Butter Naan – ₹40</p>
+    </div>
+
+    <!-- South Indian -->
+    <div class="card">
+        <h2>South Indian</h2>
+        <p>Masala Dosa – ₹90</p>
+        <p>Plain Dosa – ₹70</p>
+        <p>Idli (2 pcs) – ₹50</p>
+        <p>Vada – ₹50</p>
+    </div>
+
+    <!-- Beverages -->
+    <div class="card">
+        <h2>Beverages</h2>
+        <p>Fresh Lime Juice – ₹60</p>
+        <p>Cold Coffee – ₹90</p>
+        <p>Tea / Coffee – ₹30</p>
+        <p>Soft Drinks – ₹40</p>
+    </div>
+
+    <!-- Desserts -->
+    <div class="card">
+        <h2>Desserts</h2>
+        <p>Gulab Jamun – ₹70</p>
+        <p>Ice Cream (Vanilla/Chocolate) – ₹80</p>
+        <p>Brownie with Ice Cream – ₹120</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Thank you for dining with us</p>
+</footer>
+
+</body>
+</html>
+
+about.html
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us | Delicious Bites</title>
+    <link rel="stylesheet" href="{% static 'res_app/style.css' %}">	    
+</head>
+<body>
+
+<header>
+    <h1>About Delicious Bites</h1>
+    <p>Quality food • Clean environment • Friendly service</p>
+</header>
+
+<nav>
+   <a href="{% url 'home' %}">Home</a>
+   <a href="{% url 'menu' %}">Menu</a>
+   <a href="{% url 'about' %}">About</a>
+   <a href="{% url 'contact' %}">Contact</a>    
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Who We Are</h2>
+        <p>
+            Delicious Bites is a family-friendly restaurant established in 2020.
+            We serve a variety of Indian dishes prepared using fresh ingredients
+            and traditional cooking methods. Our focus is on quality, hygiene,
+            and customer comfort.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>What We Offer</h2>
+        <p>
+            Our restaurant offers a wide range of vegetarian and non-vegetarian
+            dishes, including South Indian, North Indian, and popular fast food
+            items. We provide dine-in and takeaway services.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Our Values</h2>
+        <ul>
+            <li>Fresh and quality ingredients</li>
+            <li>Clean and hygienic preparation</li>
+            <li>Friendly and respectful service</li>
+            <li>Consistent taste and presentation</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>Serving delicious food since 2020</p>
+</footer>
+
+</body>
+</html>
+
+contact.html
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us | Delicious Bites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>Get in touch with Delicious Bites</p>
+</header>
+
+<nav>
+  <a href="{% url 'home' %}">Home</a>
+  <a href="{% url 'menu' %}">Menu</a>
+  <a href="{% url 'about' %}">About</a>
+  <a href="{% url 'contact' %}">Contact</a>   
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Contact Information</h2>
+        <p><strong>Address:</strong> Chennai, India</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> deliciousbites@gmail.com</p>
+    </div>
+
+    <div class="card">
+        <h2>Reach Us</h2>
+        <p>You can contact us by phone or email for any enquiries.</p>
+        <p>We look forward to serving you.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Delicious Restaurant</p>
+</footer>
+
+</body>
+</html>
+
+style.css
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-shadow: 2px 2px 5px black;
+}
+nav {
+    background-color: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcccb;
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+.card h2 {
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 5px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.6;	
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+'''              
+       
 # OUTPUT:
 
-![image](https://github.com/user-attachments/assets/5211a5fd-0198-468f-9fcc-22c701ece70d)
-![image](https://github.com/user-attachments/assets/c822fcd7-7209-47cb-bab8-4c4b0b5ba4a9)
-![image](https://github.com/user-attachments/assets/cab20d20-5d42-4a45-8c07-39817edea4b8)
-![image](https://github.com/user-attachments/assets/c6eedcce-e3bb-4f4a-b36a-5d02b862ed47)
-![image](https://github.com/user-attachments/assets/23501534-b43d-492d-a373-ec4c7a13b6c6)
-'''
+![alt text](<Screenshot (64).png>) 
+![alt text](<Screenshot (68).png>) 
+![alt text](<Screenshot (67).png>) 
+![alt text](<Screenshot (66).png>) 
+![alt text](<Screenshot (65).png>)
+
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.

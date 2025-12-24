@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicious Bites</title>
+    <link rel="stylesheet" href="{% static 'res_app/style.css' %}">  
+</head>
+<body>
+
+<header>
+  
+
+    <h1>Delicious Bites</h1>
+    <p>Fresh • Tasty • Hygienic</p>
+</header>
+
+<nav>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'menu' %}">Menu</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'contact' %}">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Intro Section -->
+    <div class="card">
+        <h2>Experience the Taste of Authentic Food</h2>
+        <p>
+            Welcome to <strong>Delicious Bites</strong>, where flavor meets comfort.
+            We prepare every dish using fresh ingredients and traditional recipes
+            to give you an unforgettable dining experience.
+        </p>
+        <a href="menu.html">
+            <button>View Our Menu</button>
+        </a>
+    </div>
+
+    <!-- Today's Highlights -->
+    <div class="card">
+    	<h2>Today’s Highlights</h2>
+    	<p>• Freshly prepared meals available all day</p>
+    	<p>• Special lunch combos from 12:00 PM – 3:00 PM</p>
+   	<p>• Evening snacks served from 4:30 PM</p>
+    	<p>• Home delivery available</p>
+    </div>
+
+    <!-- Services -->
+    <div class="card">
+   	<h2>Our Services</h2>
+    	<p>• Dine-in facility</p>
+    	<p>• Takeaway orders</p>
+    	<p>• Online food ordering</p>
+    	<p>• Catering for small events</p>
+    </div>
+
+    <!-- Timings -->
+    <div class="card">
+        <h2>Opening Hours</h2>
+        <p>
+            Monday – Sunday <br>
+            10:00 AM – 10:30 PM
+        </p>
+        <p>Chennai, India</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Delicious Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
+
